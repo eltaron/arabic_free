@@ -1,0 +1,167 @@
+@charset "UTF-8";
+body{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    overflow-x: hidden;
+    font-family: 'kufam';
+}
+.sectionlogin .col-md-4{
+    background: url('../img/hell.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 762px;
+    padding: 0;
+}
+@media (max-width: 786px) {
+    .sectionlogin .col-md-4 {
+        min-height: 140px;
+    }
+}
+.sectionlogin .col-md-4 .second{
+    background: rgba(0, 153, 247, .5);
+    background: -webkit-linear-gradient(to right, rgba(241, 23, 18, .5), rgba(0, 153, 247, .5));
+    background: linear-gradient(to right, rgba(241, 23, 18, .5), rgba(0, 153, 247, .5));
+    width: 100%;
+    height: 100%;
+    padding: 65% 19% 0;
+    font-size: 82px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .sectionlogin .col-md-4 .second {
+        padding: 3% 19% 0;
+    }
+}
+.sectionlogin .col-md-8 .main{
+    padding: 16% 17% 0;
+    text-align: right;
+}
+.sectionlogin .col-md-8 .main h1 {
+    font-size: 43px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #222831;
+    text-align: right;
+}
+.sectionlogin .col-md-8 .main h4 a{
+    text-decoration: none;
+    color: #ff4a17;
+    margin-right: 10px;
+}
+input, textarea {
+    display: block;
+    height: 50px;
+    margin: 32px 0;
+    border: 0;
+    border-bottom: 1px solid #827f7fd9;
+}
+input{width: 83%;}
+textarea{width: 92%; min-height: 120px;}
+@media (max-width: 768px) {
+    textarea{width: 84%;}
+}
+select {
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+.sectionlogin .col-md-8 .main select{
+    margin: 32px 0;
+    width: 83%;
+    height: 50px;
+    border: 0;
+    border-bottom: 1px solid #827f7fd9;
+}
+input:focus , .sectionlogin .col-md-8 .main select:focus, textarea:focus{
+    outline: none !important;
+}
+input:focus::placeholder, textarea:focus::placeholder {
+    font-size: 12px;
+    position: relative;
+    top: -20px;
+    transition: 0.25s ease-in-out;
+}
+textarea:focus::placeholder {
+    font-size: 12px;
+    position: relative;
+    top: -5px;
+    transition: 0.25s ease-in-out;
+}
+button {
+    background-color: #ff4a17;
+    border: 0;
+    padding: 14px;
+    color: #fff;
+}
+button:hover {
+    color: #ff4a17;
+    transition: 0.5s ease-in-out;
+}
+.sectionlogin .col-md-8 .main .social a{
+    padding: 10px;
+    width: 150px;
+    display: inline-block;
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 6px;
+}
+.sectionlogin .col-md-8 .main .social a:hover{opacity: 0.8;}
+.face{background-color: #4267B2;}
+.whats{background-color: #128C7E;}
+.show_item{display: none;}
+.second_v{padding: 9% 17% 5% !important;}
+@media (max-width: 768px) {
+    .second_v {
+        padding: 9% 4% 5% !important;
+    }
+}
+.asterisk {
+    float: left;
+    position: relative;
+    left: 18%;
+    top: 18px;
+    color: #f00;
+    font-size: 22px;
+    font-weight: bold;
+}
+.main_btn{
+    width: 130px;
+    float: right;
+}
+.main_col{padding: 30px 60px 30px 0;}
+.main_col .asterisk{top: 43px;}
+.section_main{
+    background: url("../img/hell.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section_main .main{
+    padding: 150px 0;
+    background: rgba(0, 153, 247, 0.5);
+    background: -webkit-linear-gradient(to right, rgba(241, 23, 18, 0.5), rgba(0, 153, 247, 0.5));
+    background: linear-gradient(to right, rgba(241, 23, 18, 0.5), rgba(0, 153, 247, 0.5));
+    text-align: center;
+    color: #fff;
+    font-size: 65px !important;
+}
+.second_error{
+    text-align: center !important;
+    margin-top: 12%;
+}
+.second_error h1 {font-size: 100px !important; color: #ff4a17 !important;} 
+.second_error button{
+    width: 150px;
+    margin-top: 14px;
+    border-radius: 2px solid #ff4a17 ;
+}
+.second_error button a{color: #fff; text-decoration: none;}
+.second_error button:hover{
+    background-color: #fff;
+    border-radius: 2px solid #ff4a17 ;
+}
+button:hover a{
+    color: #ff4a17;
+}
